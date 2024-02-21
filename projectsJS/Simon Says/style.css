@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(photo-1553158399-3796bdbc82fd.avif);
+  background-size: cover;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  color: navy;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  width: 35vw;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 25px;
+  text-shadow: 5px 5px 5px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.game-container {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.counter-container {
+  margin-top: 50px;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#roundCounter,
+#recordCounter,
+#scoreCounter {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 7px solid navy;
+  background-color: white;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.figure-container {
+  width: 45vw;
+  margin-top: 100px;
+  background-color: #493939cb;
+  border-radius: 30px;
+  box-shadow: 9px 9px 108px 10px #f9f8f8;
+}
+.figure {
+  border: 8px double rgb(39, 33, 33);
+  width: 175px;
+  height: 175px;
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.figure:active,
+.active {
+  box-shadow: inset 9px 9px 18px #3e3a3a;
+  filter: brightness(500%);
+}
+.yellow {
+  background-color: #acac06;
+  border-radius: 100%;
+}
+.red {
+  background-color: rgb(181, 4, 4);
+  border-radius: 100%;
+}
+.blue {
+  background-color: #0404a3;
+  border-radius: 100%;
+}
+.green {
+  background-color: rgba(14, 178, 5, 0.825);
+  border-radius: 100%;
+}
+#btnStart {
+  font-family: Montserrat Alternates;
+  color: navy;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  margin-top: 150px;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px black;
+  color: navy;
+}
+#btnStart:hover {
+  background-color: #bfbcf1;
+  color: #1c05eb;
+}
+#btnStart:active {
+  width: 198px;
+  height: 68px;
+  color: #48023f;
+}
+
+#wrapper {
+  border: 5px solid #ec1313;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+#popup {
+  border: 5px solid navy;
+  background-color: #d1f3f2;
+  font-family: Montserrat Alternates;
+  color: navy;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: 20% auto;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  line-height: 2;
+}
+#content h2 {
+  margin-top: 80px;
+}
+@media screen and (max-width: 550px) {
+  .game-container {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .counter-container {
+    margin-top: 20px;
+  }
+  #roundCounter,
+  #recordCounter,
+  #scoreCounter {
+    width: 90px;
+    height: 90px;
+    font-size: 1rem;
+  }
+  .figure-container {
+    width: 100vw;
+    margin-top: 20px;
+  }
+  .figure {
+    width: 120px;
+    height: 120px;
+  }
+  #btnStart {
+    margin-top: 20px;
+  }
+}

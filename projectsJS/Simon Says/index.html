@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gamja+Flower&family=Miltonian&family=Montserrat+Alternates:wght@600&family=Poor+Story&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Simon Says</h1>
+      <div class="counter-container">
+        <div id="scoreCounter">Score</div>
+        <div id="roundCounter">Round</div>
+        <div id="recordCounter">Record</div>
+      </div>
+      <div class="figure-container">
+        <div
+          onclick="figureClicked(event.currentTarget)"
+          class="figure top-left green"
+        ></div>
+        <div
+          onclick="figureClicked(event.currentTarget)"
+          class="figure top-right blue"
+        ></div>
+        <div
+          onclick="figureClicked(event.currentTarget)"
+          class="figure bottom-left red"
+        ></div>
+        <div
+          onclick="figureClicked(event.currentTarget)"
+          class="figure bottom-right yellow"
+        ></div>
+      </div>
+      <button id="btnStart">Start Game</button>
+    </div>
+    <div id="wrapper">
+      <div id="popup">
+        <div id="content">
+          <h2 id="popupMessage"></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

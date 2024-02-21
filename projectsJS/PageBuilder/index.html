@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="builder-container">
+      <div class="aside-container">
+        <h1>Page Builder</h1>
+        <p>For create and change a new element, enter your new parameters</p>
+        <div class="aside-boxes">
+          <div class="box1">
+            <label for="color">BG Color Element</label>
+            <input type="color" id="bgColor" value="#FFFFFF" />
+          </div>
+          <div class="box2">
+            <label for="color">Font Color Text</label>
+            <input type="color" id="fontColor" />
+            <label for="textElement">Text Element</label>
+            <textarea id="textElement" rows="5" cols="33"></textarea>
+            <label for="underlineCheckbox">Underline Text</label>
+            <input type="checkbox" id="underlineCheckbox" />
+            <label for="upperCaseCheckbox">Uppercase Text</label>
+            <input type="checkbox" id="upperCaseCheckbox" />
+          </div>
+        </div>
+        <div class="aside-buttons">
+          <button id="btnAdd">ADD</button>
+          <button id="btnSave">SAVE</button>
+          <button id="btnClear">Clear All</button>
+        </div>
+      </div>
+      <div id="element"></div>
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>

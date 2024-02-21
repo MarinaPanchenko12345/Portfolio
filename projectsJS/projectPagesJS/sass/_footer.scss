@@ -1,0 +1,13 @@
+//content
+footer {
+  height: 51px;
+  padding-top: 15px;
+  background-color: $footerColor;
+  border-bottom: 3px solid $univesalColor;
+}
+footer span {
+  font-size: $spanTextSize;
+  color: $univesalColor;
+  font-family: Heebo;
+  margin: 0px 15px 0px 15px;
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(234, 200, 241);
+}
+h1 {
+  font-size: 3.5rem;
+  color: #efc6f1;
+  text-shadow: 5px 5px 5px rgb(117, 3, 119);
+  margin-top: 15px;
+  animation: neon 3s ease infinite;
+}
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8,
+      0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+    color: #f5efcb;
+  }
+  50% {
+    text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b,
+      0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+    color: #eda0d3;
+  }
+}
+.playContainer {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url("./1659580437_50-kartinkin-net-p-patterni-krestiki-noliki-krasivo-67.jpg");
+  background-size: cover;
+  box-shadow: 18px 18px 45px #5a5a5a, -18px -18px 45px #ffffff;
+}
+.playBox {
+  border: 1px solid #000;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-template-areas:
+    "box1 box2 box3 "
+    "box4  box5 box6"
+    "box7  box8 box9";
+  column-gap: 5px;
+  row-gap: 5px;
+}
+.box {
+  border: 5px solid rgb(50, 1, 50);
+  background-color: rgb(220, 4, 248);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 6.5rem;
+  text-shadow: 5px 5px 5px rgb(117, 3, 119);
+  text-align: center;
+  color: aliceblue;
+  box-shadow: 18px 18px 45px #5a5a5a, -18px -18px 45px #ffffff;
+}
+.box:hover {
+  background-color: rgb(237, 150, 248);
+}
+#startBtn {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-shadow: 5px 5px 5px rgb(117, 3, 119);
+  font-weight: bolder;
+  border: 4px solid rgb(50, 1, 50);
+  background-color: #90049a;
+  color: aliceblue;
+  cursor: pointer;
+  box-shadow: 18px 18px 45px #5a5a5a, -18px -18px 45px #ffffff;
+}
+#startBtn:hover {
+  background-color: #55035a;
+}
+#wrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+#popup {
+  border: 10px solid rgb(50, 1, 50);
+  background-color: #d1f3f2;
+  font-family: Montserrat Alternates;
+  text-shadow: 5px 5px 5px rgb(117, 3, 119);
+  color: rgb(50, 1, 50);
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  margin: 20% auto;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 18px 18px 45px #5a5a5a, -18px -18px 45px #ffffff;
+}
+#content h2 {
+  font-size: 3rem;
+  margin-top: 80px;
+}
+@media (max-width: 600px) {
+  .playBox {
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    grid-template-areas:
+      "box1 box2 box3 "
+      "box4  box5 box6"
+      "box7  box8 box9";
+    column-gap: 3px;
+    row-gap: 3px;
+  }
+}

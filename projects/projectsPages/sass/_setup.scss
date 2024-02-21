@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Borel&family=Dancing+Script:wght@500;600&family=Fuggles&family=Heebo:wght@300;400&family=Kaushan+Script&family=Leckerli+One&family=Reenie+Beanie&family=Satisfy&family=Varela+Round&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Borel&family=Dancing+Script:wght@500;600&family=Fuggles&family=Heebo:wght@300;400&family=Kaushan+Script&family=Leckerli+One&family=Reenie+Beanie&family=Satisfy&family=Varela+Round&display=swap");
+
+//reset all
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*using variables font-size*/
+$navTextSize: 1.5rem;
+$h1TextSize: 5rem;
+$pTextSize: 1.2rem;
+$aTextSize: 1rem;
+$spanTextSize: 1.1rem;
+
+/*using variables bds*/
+$headerColor: #13e8f163;
+$mainColor: #ebfeff;
+$footerColor: #000000;
+$univesalColor: #1ae0ec;
+
+/*using variables width*/
+$baseWidth: 99vw;
+
+//extend
+%globalWigth {
+  width: $baseWidth;
+}
+%flex-box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+%text-center {
+  text-align: center;
+}
+//mixin media
+@mixin desktop {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 576px) {
+    @content;
+  }
+}

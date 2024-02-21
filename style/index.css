@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: -1px 23px 20px -4px rgba(10, 233, 255, 0.97);
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 3px solid #1ae0ec;
+  padding-top: 10px;
+}
+.nav-container {
+  width: 610px;
+  height: 70px;
+}
+.hamburger {
+  width: 100%;
+  background-color: #fff;
+  color: #1ae0ec;
+  font-size: 3em;
+  font-weight: bold;
+  display: none;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+ul li a {
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  font: normal normal normal 25px/37px Heebo;
+  color: #2c2c2c;
+}
+ul li:first-child a {
+  color: #1ae0ec;
+  font-weight: bold;
+}
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.2em;
+}
+.navbar-logo a {
+  font-family: Dancing Script;
+  color: rgb(77, 76, 76);
+  font-size: 1.8rem;
+}
+.navbar-brand {
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+  font-family: Heebo;
+}
+.header {
+  margin-top: 80px;
+  background: #13e8f163 0% 0% no-repeat padding-box;
+}
+.header h1 {
+  font: normal normal 900 80px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+}
+.header p {
+  font: normal normal bolder 20px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+}
+.artical {
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.section {
+  background-color: #ffffff 0% 0% no-repeat padding-box;
+}
+.section h3 {
+  font: normal normal 900 35px/52px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+}
+.section p {
+  font: normal normal normal 20px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+  opacity: 1;
+}
+.lgbtn {
+  background: #1ae0ec 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  padding: 6px;
+  width: 260px;
+  height: 41px;
+  font: normal normal bold 20px/30px Heebo;
+  letter-spacing: 0.3px;
+  color: #3a3a3a;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.container-info {
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#galleryJS {
+  background: rgb(63, 244, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 244, 251, 1) 46%,
+    rgba(9, 124, 148, 0.9612219887955182) 100%
+  );
+  opacity: 1;
+}
+.container-js .card-title {
+  color: rgb(178, 231, 248);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 5px 5px 5px whitesmoke, 0 0 1em rgb(6, 45, 241),
+    0 0 0.2em rgb(3, 9, 95);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-wrap: wrap;
+}
+.container h2 {
+  font: normal normal 900 36px/53px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+  opacity: 1;
+  margin-top: 80px;
+}
+.container h3 {
+  margin-top: 100px;
+}
+.container p {
+  font: normal normal normal 20px/29px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+  opacity: 1;
+}
+.card h4 {
+  font: normal normal medium 23px/34px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+  opacity: 1;
+}
+.card p {
+  font: normal normal normal 16px/24px Heebo;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+  opacity: 1;
+}
+.card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 15px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+.mbtn {
+  width: 170px;
+  height: 30px;
+  background: #1ae0ec 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  margin: 0 auto;
+  margin-top: 22px;
+  margin-bottom: 50px;
+  padding: 0;
+  font: bold 14px/26px Heebo;
+}
+.footer {
+  background: #1ae0ec 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.form {
+  background: #3a3a3a 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  font: normal normal normal 16px/24px Heebo;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+label {
+  font: normal normal bold 16px/24px Heebo;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+input {
+  width: 320px;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-bottom: 3px solid rgb(44, 191, 207);
+  opacity: 1;
+  margin-bottom: 15px;
+}
+.forme button {
+  margin-top: 15px;
+  top: 611px;
+  left: 1382px;
+  width: 166px;
+  height: 50px;
+  background: #1ae0ec 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  font: normal normal bold 22px/30px Heebo;
+  letter-spacing: 0.33px;
+  color: #2c2c2c;
+  opacity: 1;
+}
+.forme {
+  display: block;
+  width: 400px;
+  opacity: 1;
+  margin-left: 230px;
+  margin-top: 100px;
+  padding: 20px;
+}
+@media (max-width: 800px) {
+  nav {
+    justify-content: space-between;
+    padding-top: 0;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-logo {
+    width: 30vw;
+    margin-left: 70px;
+  }
+  .hamburger {
+    display: block;
+    width: 150px;
+  }
+  ul {
+    width: 150px;
+    text-align: center;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    z-index: 1; /* Add this to ensure the menu is on top of other elements */
+  }
+  ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  ul li a {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-bottom: 2px solid #1ae0ec;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+  }
+  .nav-container:hover > ul { /* Change here */
+    display: block; /* Change here */
+  }
+  .nav-container {
+    width: auto;
+    height: auto;
+    position: relative; /* Add this to make :hover on .nav-container work */
+  }
+  .forme {
+    margin-left: 10px;
+    margin-top: -40px;
+  }
+  .form-img img {
+    width: 60%;
+    float: left;
+    margin-right: 20px;
+  }
+  .artical img {
+    width: 70px;
+    margin: 0 auto;
+  }
+}

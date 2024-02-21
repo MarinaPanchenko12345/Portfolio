@@ -1,0 +1,39 @@
+//content
+main {
+  height: 1014px;
+  background-color: $mainColor;
+}
+//nesting
+main {
+  display: flex;
+  @include desktop {
+    width: 99vw;
+    height: 90vh;
+  }
+  @include tablet {
+    width: 99vw;
+    height: 60vh;
+  }
+  @include mobile {
+    width: 99vw;
+    height: 50vh;
+  }
+  img {
+    box-shadow: 0px 0px 40px #00000066;
+    width: 1189px;
+    height: 718px;
+    margin: auto;
+    @include desktop {
+      width: 99vw;
+      height: 60vh;
+    }
+    @include tablet {
+      width: 99vw;
+      height: 50vh;
+    }
+    @include mobile {
+      width: 99vw;
+      height: 35vh;
+    }
+  }
+}

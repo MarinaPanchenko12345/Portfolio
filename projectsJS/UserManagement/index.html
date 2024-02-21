@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Management JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-register">
+      <div class="register-text">
+        <h1>הרשמה</h1>
+        <p>הרשמה למערכת</p>
+      </div>
+      <form id="regForm" class="register-form">
+        <div class="form-control">
+          <label for="fname">שם פרטי</label>
+          <input type="text" name="fname" id="fname" />
+        </div>
+        <div class="form-control">
+          <label for="lname">שם משפחה</label>
+          <input type="text" name="lname" id="lname" />
+        </div>
+        <div class="form-control">
+          <label for="email">אימייל</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-control">
+          <label for="password">סיסמה</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-control">
+          <input
+            type="submit"
+            value="הרשמה"
+            id="submitBtn"
+            class="btn btn-primary"
+          />
+        </div>
+      </form>
+    </div>
+    <div class="container-login">
+      <div class="login-text">
+        <h1>התחברות</h1>
+        <p>להתחברות למערכת יש למלא את הפרטים</p>
+      </div>
+      <form id="loginForm" class="login-form">
+        <div class="form-control">
+          <label for="login-email">אימייל</label>
+          <input type="email" name="login-email" id="login-email" />
+        </div>
+        <div class="form-control">
+          <label for="password2">סיסמה</label>
+          <input type="password" name="password2" id="password2" />
+        </div>
+        <div class="form-control">
+          <input
+            type="submit"
+            value="התחברות"
+            id="submitBtn2"
+            class="btn btn-primary"
+          />
+        </div>
+      </form>
+    </div>
+    <div class="container-user-list">
+      <div class="users-list-text">
+        <h2>רשימת משתמשים</h2>
+      </div>
+      <table class="users-table">
+        <thead>
+          <tr>
+            <th>שם פרטי</th>
+            <th>שם משפחה</th>
+            <th>אימייל</th>
+            <th>סיסמה</th>
+            <th>סטטוס</th>
+            <th>פעולות</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script defer type="module" src="usersTable.js"></script>
+    <script defer type="module" src="submitBtn.js"></script>
+    <script defer type="module" src="UserValidator.js"></script>
+  </body>
+</html>

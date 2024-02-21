@@ -1,0 +1,18 @@
+nav,
+header,
+section,
+main,
+footer {
+  @extend %globalWigth;
+}
+//nav
+nav,
+nav ul,
+footer {
+  @extend %flex-box1;
+}
+header,
+section,
+main {
+  @extend %text-center;
+}
