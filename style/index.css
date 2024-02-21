@@ -132,6 +132,12 @@ ul li:first-child a {
   font-weight: bold;
   text-wrap: wrap;
 }
+#galleryJS .card {
+  border-radius: 20px;
+}
+#galleryJS .card .card-img-top {
+  border-radius: 20px;
+}
 .container h2 {
   font: normal normal 900 36px/53px Heebo;
   letter-spacing: 0px;
@@ -265,7 +271,8 @@ input {
     padding: 10px 0;
     text-decoration: none;
   }
-  .nav-container:hover > ul { /* Change here */
+  .nav-container:hover > ul {
+    /* Change here */
     display: block; /* Change here */
   }
   .nav-container {
