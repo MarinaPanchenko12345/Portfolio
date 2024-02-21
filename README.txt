@@ -168,7 +168,7 @@ A simple online toy store where users can browse and add toys to their cart. Key
 
 Simon Says is a classic memory game where players must remember and repeat a sequence of flashing lights and sounds. Key features include:
 
-- Responsive design for seamless gameplay across devices.
+- Responsive design for seamless gamely across devices.
 - Colorful figures representing different parts of the game sequence.
 - Dynamic scoring system to track the player's progress.
 - Popup messages for game status updates such as wins, losses, and new rounds.
