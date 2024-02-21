@@ -59,176 +59,6 @@ By following these steps, you should be able to download, unzip, and open the pr
 
 ## JavaScript Projects
 
-### Clock
-
-A simple web application that displays the current time and date. It includes features such as:
-
-- Display of local time and date for different countries.
-- Dynamic updating of time and date every second.
-- Search functionality to filter countries by name or capital.
-- Timer functionality with start, stop, and reset buttons.
-- Basic calculator functionality for performing arithmetic operations.
-
-#### Technologies Used:
-
-- HTML
-- CSS
-- JavaScript (ES6+)
-- Fetch API for retrieving country data
-- Asynchronous programming for data fetching and time display
-- Event listeners for user interactions
-
-#### Installation:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
-#### Usage:
-
-- Open the web page in your browser to view the clock application.
-- Use the search bar to filter countries by name or capital.
-- Start, stop, or reset the timer using the provided buttons.
-- Use the calculator to perform basic arithmetic operations.
-
-#### Credits:
-
-- The clock application utilizes data from the Rest Countries API.
-- The design and implementation were done by [Your Name].
-
-### Page Builder
-
-An interactive web tool that allows users to create and customize HTML elements in real-time. Key features include:
-
-- Ability to set background color, font color, text content, and other styling properties.
-- Option to apply text formatting such as underline and uppercase.
-- Responsive design with input fields for specifying element dimensions and margins.
-- Support for saving user input to local storage and restoring it upon page reload.
-
-#### Technologies Used:
-
-- HTML
-- CSS
-- JavaScript (ES6+)
-- Local storage for data persistence
-- Event handling for user interactions
-- Dynamic DOM manipulation for element creation and styling
-
-#### Installation:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
-#### Usage:
-
-- Use the input fields to specify element properties such as size, margins, and colors.
-- Check the "Underline Text" and "Uppercase Text" boxes to apply text formatting.
-- Click the "ADD" button to create the element with the specified properties.
-- Use the "SAVE" button to save your changes to local storage.
-- Click the "Clear All" button to reset the page and clear saved data.
-
-#### Credits:
-
-- The page builder application was developed and designed by [Your Name].
-
-
-### Trolley - Online Toy Store
-
-A simple online toy store where users can browse and add toys to their cart. Key features include:
-
-- Responsive design using Bootstrap for a seamless user experience across devices.
-- Product cards displaying toy images, titles, prices, and an "Add to Cart" button.
-- Dynamic updating of the shopping cart with item details, quantities, and subtotals.
-- Calculation of the grand total based on the items in the cart.
-- Local storage integration to persist cart items across page reloads.
-
-#### Technologies Used:
-
-- HTML
-- CSS (including Bootstrap)
-- JavaScript (ES6+)
-- Local storage for data persistence
-
-#### Installation:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
-#### Usage:
-
-- Browse the toy store and click the "Add to Cart" button to add items to your cart.
-- View your current selections and their totals in the shopping cart section.
-- Update the quantity of items or remove them from the cart as needed.
-- The grand total is automatically calculated and updated based on your selections.
-
-#### Credits:
-
-- The Trolley online toy store was developed by [Your Name].
-
-### Simon Says Game
-
-Simon Says is a classic memory game where players must remember and repeat a sequence of flashing lights and sounds. Key features include:
-
-- Responsive design for seamless gamely across devices.
-- Colorful figures representing different parts of the game sequence.
-- Dynamic scoring system to track the player's progress.
-- Popup messages for game status updates such as wins, losses, and new rounds.
-- Local storage integration to store and display the player's highest score.
-
-#### Technologies Used:
-
-- HTML
-- CSS
-- JavaScript (ES6+)
-
-#### Installation:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
-#### How to Play:
-
-- Click the "Start Game" button to begin.
-- Watch the sequence of flashing figures.
-- Repeat the sequence by clicking on the figures in the correct order.
-- The game will progressively become more challenging as you advance through rounds.
-- Your highest score will be saved and displayed in the "Record" counter.
-
-#### Credits:
-
-- The Simon Says game was developed by [Your Name].
-
-### Tic Tac Toe Game
-
-Tic Tac Toe is a classic two-player game where players take turns marking spaces in a 3x3 grid, aiming to achieve a row, column, or diagonal of their symbol ('X' or 'O'). Key features include:
-
-- Simple and intuitive interface with a 3x3 grid for gameplay.
-- Dynamic display of player symbols ('X' and 'O') on the grid.
-- Automatic detection of winning combinations and draw conditions.
-- Pop-up messages to announce the winner or a draw at the end of each game.
-
-#### Technologies Used:
-
-- HTML
-- CSS
-- JavaScript (ES6+)
-
-#### Installation:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
-#### How to Play:
-
-- Click the "Start Game" button to begin.
-- Players take turns clicking on empty boxes to mark their symbol.
-- The game automatically detects winning combinations or a draw condition.
-- A pop-up message will announce the winner or a draw.
-- Click the "Start Game" button to play again.
-
-#### Credits:
-
-- The Tic Tac Toe game was developed by [Your Name].
-
 ### User Management JavaScript Application
 
 User Management JavaScript Application is a web-based tool for managing user registrations, logins, and user information. Key features include:
@@ -267,8 +97,179 @@ User Management JavaScript Application is a web-based tool for managing user reg
 
 #### Credits:
 
-- The User Management JavaScript Application was developed by [Your Name].
+- The User Management JavaScript Application was developed by [Panchenko Marina].
 3. Make sure you open the project using Live Server for the application to work correctly. Use the Live Server extension for Visual Studio Code or any similar tool.
+
+
+### Clock
+
+A simple web application that displays the current time and date. It includes features such as:
+
+- Display of local time and date for different countries.
+- Dynamic updating of time and date every second.
+- Search functionality to filter countries by name or capital.
+- Timer functionality with start, stop, and reset buttons.
+- Basic calculator functionality for performing arithmetic operations.
+
+#### Technologies Used:
+
+- HTML
+- CSS
+- JavaScript (ES6+)
+- Fetch API for retrieving country data
+- Asynchronous programming for data fetching and time display
+- Event listeners for user interactions
+
+#### Installation:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+#### Usage:
+
+- Open the web page in your browser to view the clock application.
+- Use the search bar to filter countries by name or capital.
+- Start, stop, or reset the timer using the provided buttons.
+- Use the calculator to perform basic arithmetic operations.
+
+#### Credits:
+
+- The clock application utilizes data from the Rest Countries API.
+- The design and implementation were done by [Panchenko Marina].
+
+### Page Builder
+
+An interactive web tool that allows users to create and customize HTML elements in real-time. Key features include:
+
+- Ability to set background color, font color, text content, and other styling properties.
+- Option to apply text formatting such as underline and uppercase.
+- Responsive design with input fields for specifying element dimensions and margins.
+- Support for saving user input to local storage and restoring it upon page reload.
+
+#### Technologies Used:
+
+- HTML
+- CSS
+- JavaScript (ES6+)
+- Local storage for data persistence
+- Event handling for user interactions
+- Dynamic DOM manipulation for element creation and styling
+
+#### Installation:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+#### Usage:
+
+- Use the input fields to specify element properties such as size, margins, and colors.
+- Check the "Underline Text" and "Uppercase Text" boxes to apply text formatting.
+- Click the "ADD" button to create the element with the specified properties.
+- Use the "SAVE" button to save your changes to local storage.
+- Click the "Clear All" button to reset the page and clear saved data.
+
+#### Credits:
+
+- The page builder application was developed and designed by [Panchenko Marina].
+
+
+### Trolley - Online Toy Store
+
+A simple online toy store where users can browse and add toys to their cart. Key features include:
+
+- Responsive design using Bootstrap for a seamless user experience across devices.
+- Product cards displaying toy images, titles, prices, and an "Add to Cart" button.
+- Dynamic updating of the shopping cart with item details, quantities, and subtotals.
+- Calculation of the grand total based on the items in the cart.
+- Local storage integration to persist cart items across page reloads.
+
+#### Technologies Used:
+
+- HTML
+- CSS (including Bootstrap)
+- JavaScript (ES6+)
+- Local storage for data persistence
+
+#### Installation:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+#### Usage:
+
+- Browse the toy store and click the "Add to Cart" button to add items to your cart.
+- View your current selections and their totals in the shopping cart section.
+- Update the quantity of items or remove them from the cart as needed.
+- The grand total is automatically calculated and updated based on your selections.
+
+#### Credits:
+
+- The Trolley online toy store was developed by [Panchenko Marina].
+
+### Simon Says Game
+
+Simon Says is a classic memory game where players must remember and repeat a sequence of flashing lights and sounds. Key features include:
+
+- Responsive design for seamless gamely across devices.
+- Colorful figures representing different parts of the game sequence.
+- Dynamic scoring system to track the player's progress.
+- Popup messages for game status updates such as wins, losses, and new rounds.
+- Local storage integration to store and display the player's highest score.
+
+#### Technologies Used:
+
+- HTML
+- CSS
+- JavaScript (ES6+)
+
+#### Installation:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+#### How to Play:
+
+- Click the "Start Game" button to begin.
+- Watch the sequence of flashing figures.
+- Repeat the sequence by clicking on the figures in the correct order.
+- The game will progressively become more challenging as you advance through rounds.
+- Your highest score will be saved and displayed in the "Record" counter.
+
+#### Credits:
+
+- The Simon Says game was developed by [Panchenko Marina].
+
+### Tic Tac Toe Game
+
+Tic Tac Toe is a classic two-player game where players take turns marking spaces in a 3x3 grid, aiming to achieve a row, column, or diagonal of their symbol ('X' or 'O'). Key features include:
+
+- Simple and intuitive interface with a 3x3 grid for gameplay.
+- Dynamic display of player symbols ('X' and 'O') on the grid.
+- Automatic detection of winning combinations and draw conditions.
+- Pop-up messages to announce the winner or a draw at the end of each game.
+
+#### Technologies Used:
+
+- HTML
+- CSS
+- JavaScript (ES6+)
+
+#### Installation:
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+#### How to Play:
+
+- Click the "Start Game" button to begin.
+- Players take turns clicking on empty boxes to mark their symbol.
+- The game automatically detects winning combinations or a draw condition.
+- A pop-up message will announce the winner or a draw.
+- Click the "Start Game" button to play again.
+
+#### Credits:
+
+- The Tic Tac Toe game was developed by [Your Name].
 
 ## Credits
 Project Author: Panchenko Marina
@@ -277,6 +278,12 @@ Additional Design Resources: Images and icons were sourced from the Figma mockup
 Additional Icons: Some icons were sourced from Font Awesome.
 Special Thanks: I would like to express my gratitude to everyone who supported and contributed to this project.
 This section acknowledges the contributions and resources used in your project, including the design obtained from HackerU College and additional icons from Font Awesome. 
+
+## Image Credits
+The images used in this project were sourced from the following free stock photo websites:
+- [Unsplash](https://unsplash.com/)
+- [Kartinki.pics](https://kartinki.pics/)
+Special thanks to these platforms for providing high-quality images that enhance the visual appeal of the project.
 
 ## Navigation Links
 The navigation menu found in both the main page (index) and the "projectsPages" is fully functional and allows for seamless navigation between different sections of the portfolio.
