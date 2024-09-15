@@ -222,6 +222,9 @@ input {
   color: #2c2c2c;
   opacity: 1;
 }
+.small-icon {
+  width: 40px; 
+}
 .forme {
   display: block;
   width: 400px;
