@@ -4,8 +4,8 @@ Brief description of the website (“Portfolio website providing the user with i
 
 ## Table of Contents
 
-1. [Features](# features)
-2. [Technologies Used](# technologies-used)
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [JavaScript Projects](#JavaScript Projects)
@@ -95,13 +95,8 @@ User Management JavaScript Application is a web-based tool for managing user reg
 - Input Validation:
   - Registration input fields are validated to ensure correct input format.
 
-#### Credits:
 
-- The User Management JavaScript Application was developed by [Panchenko Marina].
-3. Make sure you open the project using Live Server for the application to work correctly. Use the Live Server extension for Visual Studio Code or any similar tool.
-
-
-### Clock
+## Clock
 
 A simple web application that displays the current time and date. It includes features such as:
 
@@ -132,12 +127,8 @@ A simple web application that displays the current time and date. It includes fe
 - Start, stop, or reset the timer using the provided buttons.
 - Use the calculator to perform basic arithmetic operations.
 
-#### Credits:
 
-- The clock application utilizes data from the Rest Countries API.
-- The design and implementation were done by [Panchenko Marina].
-
-### Page Builder
+## Page Builder
 
 An interactive web tool that allows users to create and customize HTML elements in real-time. Key features include:
 
@@ -168,12 +159,8 @@ An interactive web tool that allows users to create and customize HTML elements 
 - Use the "SAVE" button to save your changes to local storage.
 - Click the "Clear All" button to reset the page and clear saved data.
 
-#### Credits:
 
-- The page builder application was developed and designed by [Panchenko Marina].
-
-
-### Trolley - Online Toy Store
+## Trolley - Online Toy Store
 
 A simple online toy store where users can browse and add toys to their cart. Key features include:
 
@@ -202,11 +189,8 @@ A simple online toy store where users can browse and add toys to their cart. Key
 - Update the quantity of items or remove them from the cart as needed.
 - The grand total is automatically calculated and updated based on your selections.
 
-#### Credits:
 
-- The Trolley online toy store was developed by [Panchenko Marina].
-
-### Simon Says Game
+## Simon Says Game
 
 Simon Says is a classic memory game where players must remember and repeat a sequence of flashing lights and sounds. Key features include:
 
@@ -235,11 +219,8 @@ Simon Says is a classic memory game where players must remember and repeat a seq
 - The game will progressively become more challenging as you advance through rounds.
 - Your highest score will be saved and displayed in the "Record" counter.
 
-#### Credits:
 
-- The Simon Says game was developed by [Panchenko Marina].
-
-### Tic Tac Toe Game
+## Tic Tac Toe Game
 
 Tic Tac Toe is a classic two-player game where players take turns marking spaces in a 3x3 grid, aiming to achieve a row, column, or diagonal of their symbol ('X' or 'O'). Key features include:
 
@@ -267,10 +248,6 @@ Tic Tac Toe is a classic two-player game where players take turns marking spaces
 - A pop-up message will announce the winner or a draw.
 - Click the "Start Game" button to play again.
 
-#### Credits:
-
-- The Tic Tac Toe game was developed by [Panchenko Marina].
-
 ## Contact Form
 
 The portfolio includes a **contact form** that allows visitors to send me messages directly from the website.
@@ -295,7 +272,8 @@ UI Design: Provided by HackerU College
 Additional Design Resources: Images and icons were sourced from the Figma mockup provided by HackerU College.
 Additional Icons: Some icons were sourced from Font Awesome.
 Special Thanks: I would like to express my gratitude to everyone who supported and contributed to this project.
-This section acknowledges the contributions and resources used in your project, including the design obtained from HackerU College and additional icons from Font Awesome. 
+This section acknowledges the contributions and resources used in your project, including the design obtained from HackerU College and additional icons from Font Awesome.
+- The clock application utilizes data from the Rest Countries API. 
 
 ## Image Credits
 The images used in this project were sourced from the following free stock photo websites:
