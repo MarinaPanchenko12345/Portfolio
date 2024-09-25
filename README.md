@@ -8,9 +8,9 @@ Brief description of the website (“Portfolio website providing the user with i
 2. [Technologies Used](#technologies-used)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [JavaScript Projects](#JavaScript Projects)
+5. [JavaScript Projects](#javascript-projects)
 6. [Credits](#credits)
-7. [Navigation Links](#Navigation Links)
+7. [Navigation Links](#navigation-links)
 
 
 ## Features
