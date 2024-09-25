@@ -269,7 +269,25 @@ Tic Tac Toe is a classic two-player game where players take turns marking spaces
 
 #### Credits:
 
-- The Tic Tac Toe game was developed by [Your Name].
+- The Tic Tac Toe game was developed by [Panchenko Marina].
+
+## Contact Form
+
+The portfolio includes a **contact form** that allows visitors to send me messages directly from the website.
+
+### How to Use the Contact Form:
+
+1. Fill in your name, email, phone number, and a message.
+2. Click the "Send" button to submit your message.
+3. Once submitted, you will see a confirmation message indicating that your message has been sent successfully.
+
+The form utilizes **EmailJS** for sending messages directly to my email inbox, and I will respond as soon as possible.
+
+### Contact Form Technologies:
+- **HTML** (form structure)
+- **CSS** (styling the form)
+- **EmailJS** (for sending the message)
+- **SweetAlert2** (for showing confirmation messages)
 
 ## Credits
 Project Author: Panchenko Marina

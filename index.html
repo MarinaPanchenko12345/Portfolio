@@ -346,7 +346,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-8 col-lg-6">
-          <div class="forme mb-5">
+          <form class="forme mb-5">
             <h2>Contact Me</h2>
             <p>
               For feedback (more information and suggestions), please send your
@@ -357,16 +357,18 @@
             <label for="email">E-mail</label>
             <input type="email" id="email" name="userEmail" />
             <label for="phoneNumber">Phone number</label>
-            <input type="text" id="phoneNumber" name="userPhoneNumber" />
+            <input type="text" id="phone" name="userPhoneNumber" />
             <label for="messageContent">Content of the message</label>
-            <input
-              type="text"
-              id="messageContent"
-              name="messageContent"
-              style="height: 50px"
-            />
-            <button id="submitButton">Sending</button>
-          </div>
+            <textarea
+              id="message"
+              rows="4"
+              name="message"
+              style="width: 320px"
+            ></textarea>
+            <button type="button" id="submitButton" onclick="sendMail()">
+              Send
+            </button>
+          </form>
         </div>
       </div>
     </div>
@@ -388,7 +390,11 @@
         </div>
         <div class="col-6 col-md-auto col-lg-1 text-center mb-2">
           <figure>
-            <img src="./icons/whatsapp.png" alt="icon" class="img-fluid mb-3 small-icon"/>
+            <img
+              src="./icons/whatsapp.png"
+              alt="icon"
+              class="img-fluid mb-3 small-icon"
+            />
             <figcaption>+972 54-675-3533</figcaption>
           </figure>
         </div>
@@ -440,5 +446,18 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "O7BwWm7AR5oYlDkck",
+        });
+      })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js" defer></script>
   </body>
 </html>
