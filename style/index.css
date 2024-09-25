@@ -36,9 +36,12 @@ ul {
   flex-direction: row;
   margin-top: 10px;
 }
+
 ul li a {
   display: block;
   width: 150px;
+  align-items: center;
+  text-align: center;
   text-decoration: none;
   font: normal normal normal 25px/37px Heebo;
   color: #2c2c2c;
@@ -224,7 +227,7 @@ input {
 }
 
 .small-icon {
-  width: 40px; 
+  width: 40px;
 }
 .forme {
   display: block;
@@ -234,6 +237,13 @@ input {
   margin-top: 100px;
   padding: 20px;
 }
+@media (max-width: 1400px) {
+  ul li a {
+    width: 120px;
+    font: normal normal normal 20px Heebo;
+  }
+}
+
 @media (max-width: 800px) {
   nav {
     justify-content: space-between;
