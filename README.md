@@ -4,8 +4,8 @@ Brief description of the website (“Portfolio website providing the user with i
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Technologies Used](#technologies-used)
+1. [Features](# features)
+2. [Technologies Used](# technologies-used)
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [JavaScript Projects](#JavaScript Projects)
