@@ -308,3 +308,8 @@ input {
     margin: 0 auto;
   }
 }
+@media (max-width: 380px) {
+  .forme p{
+   width: 80vw;
+  }
+}
