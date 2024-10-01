@@ -309,7 +309,7 @@ input {
   }
 }
 @media (max-width: 380px) {
-  .forme p{
-   width: 80vw;
+  .forme p {
+    width: 80vw;
   }
 }
