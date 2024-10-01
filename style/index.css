@@ -212,6 +212,9 @@ input {
   opacity: 1;
   margin-bottom: 15px;
 }
+textarea {
+  width: 320px;
+}
 .forme button {
   margin-top: 15px;
   top: 611px;
@@ -243,7 +246,16 @@ input {
     font: normal normal normal 20px Heebo;
   }
 }
-
+@media (max-width: 1300px) {
+  .forme {
+    margin-left: 0;
+  }
+}
+@media (max-width: 990px) {
+  .forme {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 800px) {
   nav {
     justify-content: space-between;
@@ -286,13 +298,12 @@ input {
     text-decoration: none;
   }
   .nav-container:hover > ul {
-    /* Change here */
-    display: block; /* Change here */
+    display: block;
   }
   .nav-container {
     width: auto;
     height: auto;
-    position: relative; /* Add this to make :hover on .nav-container work */
+    position: relative;
   }
   .forme {
     margin-left: 10px;
@@ -309,7 +320,16 @@ input {
   }
 }
 @media (max-width: 380px) {
+  .forme {
+    width: 90vw;
+  }
   .forme p {
+    width: 80vw;
+  }
+}
+@media (max-width: 345px) {
+  input,
+  textarea {
     width: 80vw;
   }
 }
